@@ -8,7 +8,7 @@ export default function HomeGallery() {
           <div className="row justify-content-center text-center">
             <div className="col-lg-6 col-md-8 col-sm-12">
                 <h4 className="sub-titles py-3">OUR GALLERY</h4>
-                <h2 className="titles">Explore Bear Creek's photo gallery</h2>
+                <h2 className="titles">Explore Bear Creek's Photo Gallery</h2>
             </div>
           </div>
           <div className="row justify-content-center text-center py-5">

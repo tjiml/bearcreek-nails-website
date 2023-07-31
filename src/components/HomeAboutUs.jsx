@@ -14,7 +14,7 @@ export default function HomeAboutUs() {
               <h1 className="titles">Bear Creek Nails</h1>
               <hr className="solid"/>
 
-              <p className="lorem text-start">Welcome to Bear Creek Nails, where excellence meets elegance. Our expert technicians are dedicated to providing top-notch nail services, from classic manicures and pedicures to intricate nail art and innovative gel applications.</p>
+              <p className="lorem text-start">Welcome to <strong>Bear Creek Nails</strong>, where excellence meets elegance. Our expert technicians are dedicated to providing top-notch nail services, from classic manicures and pedicures to intricate nail art and innovative gel applications.</p>
               <p className="lorem text-start">Immerse yourself in a luxurious and hygienic atmosphere, where we prioritize your comfort and satisfaction. With a diverse range of premium nail products and a keen eye for detail, we promise to transform your nails into stunning masterpieces that reflect your unique style.</p>
               <p className="lorem text-start">Discover a haven of relaxation and creativity, ensuring that you leave feeling pampered and delighted with your polished and immaculate nails.</p>
               <Link to="/contact"><button className="view-more-btn my-3">view more <i className="bi bi-chevron-right"></i></button></Link>

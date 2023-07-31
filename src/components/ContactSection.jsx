@@ -47,7 +47,7 @@ export default function ContactSection() {
           <div className="row justify-content-center">
             <div className="col-lg-5 col-md-10 col-sm-10 mx-5">
                 <div className="row py-5" id="contact-information">
-                <p className="sub-titles">We'd love to hear from you! </p>
+                <p className="sub-titles">WE'D LOVE TO HEAR FROM YOU </p>
                 <p className="contact-text mb-5">We'll be more than happy to assist you with any questions or inquiries you may have.</p>
                         <div className="col-1">
                             <ul className="icons">
@@ -74,7 +74,7 @@ export default function ContactSection() {
                 <div>
                   <div className="row py-5">
                     <div className="col-lg-12 col-md-12 col-sm-12">
-                      <h4 className="send-message-title">SEND US A MESSAGE!</h4>
+                      <h4 className="send-message-title">SEND US A MESSAGE</h4>
                       <p className="required-contact-info"></p>
                     </div>
                   </div>
