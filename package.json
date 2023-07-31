@@ -1,7 +1,7 @@
 {
   "homepage": "http://tjiml.github.io/bearcreek-nails-website",
   "name": "bearcreek-nails-website",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
