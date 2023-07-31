@@ -33,7 +33,7 @@
     font-family: mukta;
     background-color: transparent;
     box-shadow: inset 0 0 0 0 rgb(180, 116, 180);
-    transition: ease-out 0.5s;
+    transition: ease-out 0.3s;
     border: 1px solid rgb(180, 116, 180);
     color: rgb(180, 116, 180);
 }
@@ -605,7 +605,9 @@ color: gray;
     letter-spacing: 3px;
 }
 
-.message-recieved-text {
+.message-recieved-text,
+.appt-confirmed-text 
+{
     font-family: cochin;
 }
 
@@ -617,7 +619,7 @@ color: gray;
 .required-booking-info,
 .required-date-info
 {
-    font-family: cochin;
+    font-family: mukta;
     color: red;
 }
 

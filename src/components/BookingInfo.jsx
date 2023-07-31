@@ -414,7 +414,7 @@ export default function BookingInfo() {
         <div className="confirmation-container">
           <div className="row justify-content-center text-center">
             <div className="col-lg-8 col-md-10 col-sm-12">
-              <h4 className='titles'>Your appointment has been booked! We look forward to seeing you!</h4>
+              <h4 className='appt-confirmed-text'>Your appointment has been booked! We look forward to seeing you!</h4>
               <Link to="/home"><button className="return-home-btn my-5">return home</button></Link>
             </div>
           </div>
