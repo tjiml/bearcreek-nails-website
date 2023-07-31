@@ -1,20 +1,18 @@
 import React, { useState } from 'react'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
+import NavGallery from '../components/NavGallery';
 import ServicesAndBookingTab from '../components/ServicesAndBookingTab';
-import HomeGallery from '../components/HomeGallery';
-import NavContact from '../components/NavContact';
-import ContactSection from '../components/ContactSection';
+import GalleryPageOne from '../components/GalleryPageOne';
 
-export default function Contact() {
-
+export default function GalleryOne() {
   
   return (
     <>
-      <NavContact />
-      <ContactSection />
-      <HomeGallery />
-      <ServicesAndBookingTab />
-      <Footer />
+        <NavGallery />
+        <GalleryPageOne />
+        <ServicesAndBookingTab />
+        <Footer />
     </>
   )
 }
