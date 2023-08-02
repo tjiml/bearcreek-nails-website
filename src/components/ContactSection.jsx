@@ -23,7 +23,7 @@ export default function ContactSection() {
     }
   
     function reloadContactPage() {
-      window.location.reload(true);
+      window.location.href = window.location.href;
     }
 
     return (
