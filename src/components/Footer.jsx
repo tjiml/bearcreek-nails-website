@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
 
     function backToTop() {
-        window.location.reload();
+        window.scrollTo ({
+            top: 0,
+            behavior: "smooth"
+        })
     }
 
   return (

@@ -10,7 +10,6 @@ import GalleryThree from './pages/GalleryThree'
 import Booking from './pages/Booking'
 import ServicesAndBookingTab from './components/ServicesAndBookingTab'
 import Footer from './components/Footer'
-import ScrollTop from './components/ScrollTop'
 import NavHome from './components/NavHome'
 import NavBooking from './components/NavBooking'
 import NavContact from './components/NavContact'
@@ -33,7 +32,6 @@ export default function App() {
   return (
     <>
      <BrowserRouter>
-     <ScrollTop />
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="/home" element={<Home />}/>
