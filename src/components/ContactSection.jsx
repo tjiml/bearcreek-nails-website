@@ -23,7 +23,7 @@ export default function ContactSection() {
     }
   
     function reloadContactPage() {
-      window.location.href = window.location.href;
+      window.location.reload(false);
     }
 
     return (
@@ -37,7 +37,7 @@ export default function ContactSection() {
             </div>
             <div className="row justify-content-center text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h1 className="page-titles">Contact Bear Creek Nails</h1>
+                    <h1 className="page-titles">Contact Bear Creek Nails!</h1>
                 </div>
             </div>
         </div>
