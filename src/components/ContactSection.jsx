@@ -22,9 +22,6 @@ export default function ContactSection() {
       }
     }
   
-    function reloadContactPage() {
-      window.location.reload(false);
-    }
 
     return (
         <>
@@ -37,7 +34,7 @@ export default function ContactSection() {
             </div>
             <div className="row justify-content-center text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h1 className="page-titles">Contact Bear Creek Nails!</h1>
+                    <h1 className="page-titles">Contact Bear Creek Nails</h1>
                 </div>
             </div>
         </div>
@@ -101,7 +98,7 @@ export default function ContactSection() {
                   <div className="row justify-content-center text-center">
                     <div className="col-lg-12 col-md-12 col-sm-12">
                       <h2 className="message-recieved-text"><i className="bi bi-check"></i> Your message has been sent! We appreciate your comments and concerns.</h2>
-                      <button className="reload-message-btn my-5" onClick={reloadContactPage}>send new message</button>
+                      <Link to="/home"><button className="reload-message-btn my-5">return home</button></Link>
                     </div>
                   </div>
                 </div>
