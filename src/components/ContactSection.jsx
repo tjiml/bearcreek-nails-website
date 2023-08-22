@@ -57,7 +57,7 @@ export default function ContactSection() {
                         </div>
                         <div className="col-10">
                             <ul>
-                                <li className="contact-info">2589 S Lewis Way, CO 80227</li>
+                                <li className="contact-info">2589 S Lewis Way, CO </li>
                                 <li className="contact-info">303 - 923 - 8321</li>
                                 <li className="contact-info">bearcreeknails@gmail.com</li>
                                 <li className="contact-info"><a href="https://www.facebook.com/bearcreeknails" target="_blank" className="facebook-link">facebook/bearcreeknails</a></li>
