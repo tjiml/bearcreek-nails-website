@@ -517,7 +517,7 @@ export default function ServicesMenu() {
                         <div>
                             <h2 className="additional-up py-2" onClick={hideAdditional}>Additional Services <i className="bi bi-chevron-up"></i></h2>
                                 <div className="row">
-                                    <div className="col-10">
+                                    <div className="col-9">
                                         <ul className="service-items text-start">
                                             <li>Polish Hands/Feet</li>
                                             <li>French Polish Hands/Feet</li>
@@ -530,7 +530,7 @@ export default function ServicesMenu() {
                                             <li>Nail Trimming & Shaping</li>
                                         </ul>
                                     </div>
-                                    <div className="col-2">
+                                    <div className="col-3">
                                         <ul className="service-items text-start">
                                             <li>$10-15+</li>
                                             <li>$15-17+</li>

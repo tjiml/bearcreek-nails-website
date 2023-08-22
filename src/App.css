@@ -268,7 +268,7 @@
     background-image: url(https://bedazzlednailsandspa.com/images/3.jpg);
     height: 780px;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     opacity: 0.9;
 }
 
