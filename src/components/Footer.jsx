@@ -1,14 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 export default function Footer() {
 
-    function backToTop() {
-        window.scrollTo ({
-            top: 0,
-            behavior: "smooth"
-        })
-    }
 
   return (
     <>
@@ -59,15 +53,13 @@ export default function Footer() {
         </div>
 
         <div className="row justify-content-center pt-3" id="copyright-section">
-            <div className="col-2">
-                {/* empty */}
-            </div>
+        
             <div className="col-8">
                 <p className="text-center">©copyright 2023. <a href="https://www.facebook.com/bearcreeknails" className="bc-footer" target='_blank'>Bear Creek Nails.</a> All rights reserved.</p>
             </div>
-            <div className="col-2">
+            {/* <div className="col-2">
                 <p className="text-end"><i className="arrow-up bi bi-arrow-up-circle" onClick={backToTop}></i></p>
-            </div>
+            </div> */}
         </div>
     </div>
     </>
